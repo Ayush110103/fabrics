@@ -28,9 +28,12 @@
     "lucide-react": "^0.335.0",
     "moment": "^2.30.1",
     "next": "14.1.0",
+    "next-auth": "^4.24.11",
     "next-themes": "^0.2.1",
     "react": "^18",
     "react-dom": "^18",
+    "react-resizable": "^3.0.5",
+    "react-split": "^2.0.14",
     "sonner": "^1.4.0",
     "tailwind-merge": "^2.2.1",
     "tailwindcss-animate": "^1.0.7"
