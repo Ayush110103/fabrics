@@ -27,7 +27,7 @@
 
 ## 🤖 Introduction
 
-**Fabrics** is Team planner and Idea management platform where people can turn their ideas into simple diarams that can help them soothen the workflow and build something unique and crazy.
+**Fabrics** is Team planner and Idea management platform where people can turn their ideas into simple diarams that can help them soothen the workflow and build something unique and crazy. Like clothes are woven with fabrics where placement and pattern matters the most in deciding the final result, Samwise fabric could help in weaving your ideas into amazing products.
 
 ## ⚙️ Tech Stack
 
