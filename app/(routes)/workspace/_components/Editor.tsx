@@ -24,13 +24,42 @@ function Editor({ onSaveTrigger, fileId, fileData }: EditorProps) {
     const Paragraph = (await import('@editorjs/paragraph')).default;
     const Warning = (await import('@editorjs/warning')).default;
 
-    // Use a fallback if no document is available.
-    let editorData = { time: Date.now(), blocks: [], version: "2.8.1" };
+    // Fallback data: Always include a header with "Document Name"
+    let editorData = { 
+      time: Date.now(), 
+      blocks: [
+        {
+          id: 'document-name-block',
+          type: 'header',
+          data: {
+            text: 'Document Name',
+            level: 2
+          }
+        }
+      ], 
+      version: "2.8.1" 
+    };
+
+    // If fileData.document exists, try to use it.
     if (fileData?.document) {
       try {
         const parsed = JSON.parse(fileData.document);
         if (!Array.isArray(parsed.blocks)) {
           parsed.blocks = [];
+        }
+        // If there is no header block, prepend one.
+        const hasHeader = parsed.blocks.some(
+          (block: any) => block.type === 'header'
+        );
+        if (!hasHeader) {
+          parsed.blocks.unshift({
+            id: 'document-name-block',
+            type: 'header',
+            data: {
+              text: 'Document Name',
+              level: 2
+            }
+          });
         }
         editorData = parsed;
       } catch (error) {
