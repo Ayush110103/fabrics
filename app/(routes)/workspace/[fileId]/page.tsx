@@ -25,7 +25,7 @@ function Workspace({params}: any) {
 
   return (
     <div>
-      <WorkspaceHeader onSave={() => setTriggerSave(!triggerSave)} />
+      <WorkspaceHeader onSave={() => setTriggerSave(!triggerSave)} fileData={fileData}/>
       {/* Use react-split for draggable layout */}
       <Split
         sizes={[50, 50]}

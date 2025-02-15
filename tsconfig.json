@@ -1,3 +1,4 @@
+// filepath: /c:/Users/acer/Desktop/fabrics--A-Planning-application/tsconfig.json
 {
   "compilerOptions": {
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -21,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/(routes)/dashboard/_components/SideNavTopSection.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "editorjs-plugins.d.ts"],
   "exclude": ["node_modules"]
 }
