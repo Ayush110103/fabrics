@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+### Fabrics - A consistent planner for your ideas to take place
 
-## Getting Started
+![1739652465085](image/README/1739652465085.png)
 
-First, run the development server:
+![1739652494402](image/README/1739652494402.png)
+
+![1739652571548](image/README/1739652571548.png)
+
+<div>
+  <img src="https://img.shields.io/badge/-React-black?style=for-the-badge&logo=react&logoColor=61DAFB&color=000000" alt="React" />
+  <img src="https://img.shields.io/badge/-Next.js-black?style=for-the-badge&logo=next-dot-js&logoColor=white&color=000000" alt="Next.js" />
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logo=tailwindcss&logoColor=white&color=06B6D4" alt="TailwindCSS" />
+  <img src="https://img.shields.io/badge/-Convex-black?style=for-the-badge&logo=convex&logoColor=white&color=5E2CA5" alt="Convex" />
+  <img src="https://img.shields.io/badge/-Kinde-black?style=for-the-badge&logo=kinde&logoColor=white&color=FF5722" alt="Kinde" />
+  <img src="https://img.shields.io/badge/-Vercel-black?style=for-the-badge&logo=vercel&logoColor=white&color=000000" alt="Vercel" />
+</div>
+
+<h3 align="center">Fabrics – AI-Powered Design Generator</h3>
+
+## 📋 Table of Contents
+
+1. [Introduction](#introduction)
+2. [Tech Stack](#tech-stack)
+3. [Features](#features)
+4. [Quick Start](#quick-start)
+5. [Database Schema](#database-schema)
+
+## 🤖 Introduction
+
+**Fabrics** is Team planner and Idea management platform where people can turn their ideas into simple diarams that can help them soothen the workflow and build something unique and crazy.
+
+## ⚙️ Tech Stack
+
+- **Frontend:** Next.js, React, TailwindCSS
+- **Backend:** Kinde Authentication, Convex Database
+- **Database:** Convex
+- **Authentication:** Kinde for secure user authentication
+- **Deployment:** Vercel
+
+## 🔋 Features
+
+- **Customizable Designs:** Users can visually draw your ideas before finalizing.
+- **Cloud-Based Storage:** Seamless integration with Convex for secure and scalable storage.
+- **User Authentication:** Secure login and registration using Kinde.
+- **Real-Time Previews:** Instantly preview generated designs before saving.
+- **Responsive UI:** Optimized for both desktop and mobile devices.
+
+## 🤸 Quick Start
+
+Follow these steps to set up the project locally on your machine.
+
+### Prerequisites
+
+Ensure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/) (v14+ recommended)
+- [npm](https://www.npmjs.com/) or [Yarn](https://yarnpkg.com/)
+
+### Cloning the Repository
+
+Clone the repository and navigate to the project directory:
+
+```bash
+git clone https://github.com/Ayush110103/fabrics.git
+cd fabrics
+```
+
+### Installation
+
+Install the project dependencies:
+
+```bash
+npm install
+# or, if you use Yarn:
+# yarn install
+```
+
+### Running the Project
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# or, with Yarn:
+# yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📊 Database Schema
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+![1739652422820](image/README/1739652422820.png)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+### 🚀 Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Feel free to fork this repository and submit a pull request with your improvements.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📬 Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For inquiries, reach out via [LinkedIn](https://linkedin.com/in/ayushjain1101) or [GitHub](https://github.com/Ayush110103).
