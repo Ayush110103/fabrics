@@ -13,7 +13,7 @@ export async function POST(request: Request) {
     });
 
     // Generate a join link for the invited users.
-    const joinLink = 'http://localhost:3000/dashboard';
+    const joinLink = 'https://fabrics-taupe.vercel.app/dashboard';
 
     for (const invite of invites) {
         const mailOptions = {
